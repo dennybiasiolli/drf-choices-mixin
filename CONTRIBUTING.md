@@ -13,7 +13,7 @@ intent, and focus on the work.
 
 ## Reporting bugs
 
-Open a [GitHub issue](../../issues/new) with:
+Open a [GitHub issue](https://github.com/dennybiasiolli/django-rest-choices/issues/new) with:
 
 1. A clear, descriptive title.
 2. Steps to reproduce the problem.
@@ -24,7 +24,7 @@ A minimal code snippet that reproduces the issue is extremely helpful.
 
 ## Suggesting features
 
-Open a [GitHub issue](../../issues/new) describing:
+Open a [GitHub issue](https://github.com/dennybiasiolli/django-rest-choices/issues/new) describing:
 
 1. The problem you're trying to solve.
 2. Your proposed solution (if you have one).
@@ -43,7 +43,7 @@ We value simple, focused features that benefit the majority of users.
 
 ```bash
 # Clone the repository
-git clone https://github.com/<owner>/django-rest-choices.git
+git clone https://github.com/dennybiasiolli/django-rest-choices.git
 cd django-rest-choices
 
 # Install all dependencies (dev + docs)
