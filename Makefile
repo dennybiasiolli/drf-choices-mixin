@@ -30,4 +30,4 @@ publish: build
 	uv publish
 
 publish-test: build
-	uv publish --publish-url https://test.pypi.org/simple/
+	uv publish --publish-url https://test.pypi.org/legacy/
