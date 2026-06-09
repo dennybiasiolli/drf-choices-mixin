@@ -19,3 +19,35 @@ class ItemViewSet(ChoicesMixin, ModelViewSet):
 class ArticleViewSet(ChoicesMixin, ModelViewSet):
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
+
+
+class CustomEndpointViewSet(ChoicesMixin, ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    choices_endpoint_name = "options"
+
+
+class FieldFirstViewSet(ChoicesMixin, ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    choices_field_first = True
+
+
+class FieldFirstCustomViewSet(ChoicesMixin, ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    choices_endpoint_name = "options"
+    choices_field_first = True
+
+
+class FilteredFieldsViewSet(ChoicesMixin, ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    choices_fields = ["status"]
+
+
+class CustomKeysViewSet(ChoicesMixin, ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    choices_value_key = "key"
+    choices_display_key = "label"
