@@ -1,4 +1,4 @@
-.PHONY: install test lint format build publish publish-test clean
+.PHONY: install test lint format docs docs-serve build publish publish-test clean
 
 install:
 	uv sync --group dev
@@ -14,8 +14,14 @@ format:
 	uv run ruff format .
 	uv run ruff check --fix .
 
+docs:
+	uv run --group docs mkdocs build --strict
+
+docs-serve:
+	uv run --group docs mkdocs serve
+
 clean:
-	rm -rf dist/
+	rm -rf dist/ site/
 
 build: clean
 	uv build
