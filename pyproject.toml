@@ -1,0 +1,32 @@
+[project]
+name = "django-rest-choices"
+version = "0.1.0"
+description = "A Django REST Framework mixin that auto-generates API endpoints for model field choices"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "django>=4.2",
+    "djangorestframework>=3.14",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-django>=4.9",
+    "ruff>=0.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
