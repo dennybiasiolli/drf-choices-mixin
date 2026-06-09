@@ -3,13 +3,13 @@
 ## Installation
 
 ```bash
-pip install django-rest-choices
+pip install drf-choices-mixin
 ```
 
 Or with `uv`:
 
 ```bash
-uv add django-rest-choices
+uv add drf-choices-mixin
 ```
 
 No changes to `INSTALLED_APPS` are needed — the mixin works purely at the
@@ -47,7 +47,7 @@ Place `ChoicesMixin` **before** the base viewset class in the inheritance
 list so its methods take priority:
 
 ```python
-from django_rest_choices import ChoicesMixin
+from drf_choices_mixin import ChoicesMixin
 from rest_framework.viewsets import ModelViewSet
 
 

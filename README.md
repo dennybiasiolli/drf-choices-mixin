@@ -1,4 +1,4 @@
-# django-rest-choices
+# drf-choices-mixin
 
 A Django REST Framework mixin that automatically generates API endpoints for
 model field choices. Drop `ChoicesMixin` into any DRF viewset and it will
@@ -15,7 +15,7 @@ manual serializer or view code required.
 ## Installation
 
 ```bash
-pip install django-rest-choices
+pip install drf-choices-mixin
 ```
 
 ## Quick start
@@ -47,7 +47,7 @@ class Task(models.Model):
 Add the mixin to your viewset (place it **before** the base viewset class):
 
 ```python
-from django_rest_choices import ChoicesMixin
+from drf_choices_mixin import ChoicesMixin
 from rest_framework.viewsets import ModelViewSet
 
 

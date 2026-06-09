@@ -74,7 +74,7 @@ choices, or the field is excluded by `choices_fields`.
 ## ChoicesMixin class
 
 ```python
-from django_rest_choices import ChoicesMixin
+from drf_choices_mixin import ChoicesMixin
 ```
 
 ### Class attributes

@@ -1,4 +1,4 @@
-# django-rest-choices
+# drf-choices-mixin
 
 A Django REST Framework mixin that automatically generates API endpoints for
 model field choices. Drop `ChoicesMixin` into any DRF viewset and it will

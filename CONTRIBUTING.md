@@ -1,4 +1,4 @@
-# Contributing to django-rest-choices
+# Contributing to drf-choices-mixin
 
 Thank you for your interest in contributing! This guide will help you get
 started, whether you're reporting a bug, suggesting a feature, or submitting
@@ -13,7 +13,7 @@ intent, and focus on the work.
 
 ## Reporting bugs
 
-Open a [GitHub issue](https://github.com/dennybiasiolli/django-rest-choices/issues/new) with:
+Open a [GitHub issue](https://github.com/dennybiasiolli/drf-choices-mixin/issues/new) with:
 
 1. A clear, descriptive title.
 2. Steps to reproduce the problem.
@@ -24,7 +24,7 @@ A minimal code snippet that reproduces the issue is extremely helpful.
 
 ## Suggesting features
 
-Open a [GitHub issue](https://github.com/dennybiasiolli/django-rest-choices/issues/new) describing:
+Open a [GitHub issue](https://github.com/dennybiasiolli/drf-choices-mixin/issues/new) describing:
 
 1. The problem you're trying to solve.
 2. Your proposed solution (if you have one).
@@ -43,8 +43,8 @@ We value simple, focused features that benefit the majority of users.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dennybiasiolli/django-rest-choices.git
-cd django-rest-choices
+git clone https://github.com/dennybiasiolli/drf-choices-mixin.git
+cd drf-choices-mixin
 
 # Install all dependencies (dev + docs)
 uv sync --group dev --group docs
@@ -57,7 +57,7 @@ uv run ruff check .
 ### Project layout
 
 ```
-src/django_rest_choices/    # Package source
+src/drf_choices_mixin/     # Package source
     __init__.py             # Public API (exports ChoicesMixin)
     mixins.py               # Mixin implementation
 tests/                      # Test suite

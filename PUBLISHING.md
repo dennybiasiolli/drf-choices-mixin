@@ -1,6 +1,6 @@
 # Publishing to PyPI
 
-This guide walks you through publishing `django-rest-choices` to
+This guide walks you through publishing `drf-choices-mixin` to
 [PyPI](https://pypi.org/) (and optionally [TestPyPI](https://test.pypi.org/)
 for a dry run).
 
@@ -78,11 +78,11 @@ You can inspect the contents of the wheel to make sure everything looks
 right:
 
 ```bash
-unzip -l dist/django_rest_choices-*.whl
+unzip -l dist/drf_choices_mixin-*.whl
 ```
 
-You should see `django_rest_choices/__init__.py`,
-`django_rest_choices/mixins.py`, the `METADATA`, and the `LICENSE` — nothing
+You should see `drf_choices_mixin/__init__.py`,
+`drf_choices_mixin/mixins.py`, the `METADATA`, and the `LICENSE` — nothing
 else.
 
 ### 4. Upload to PyPI
@@ -98,7 +98,7 @@ UV_PUBLISH_TOKEN=pypi-xxxx... make publish
 ```
 
 Once complete, verify the package at
-[pypi.org/project/django-rest-choices](https://pypi.org/project/django-rest-choices/).
+[pypi.org/project/drf-choices-mixin](https://pypi.org/project/drf-choices-mixin/).
 
 ## Testing with TestPyPI (optional but recommended)
 
@@ -119,12 +119,12 @@ UV_PUBLISH_TOKEN=pypi-xxxx... make publish-test
 ### 3. Verify
 
 Check the package at
-`https://test.pypi.org/project/django-rest-choices/`.
+`https://test.pypi.org/project/drf-choices-mixin/`.
 
 You can install it from TestPyPI to confirm it works:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ django-rest-choices
+pip install --index-url https://test.pypi.org/simple/ drf-choices-mixin
 ```
 
 Note: dependencies like Django and DRF are not on TestPyPI, so you may need

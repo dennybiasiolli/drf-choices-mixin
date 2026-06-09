@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
 
-from django_rest_choices import ChoicesMixin
+from drf_choices_mixin import ChoicesMixin
 
 from .models import Article, Item, Task
 from .serializers import ArticleSerializer, ItemSerializer, TaskSerializer

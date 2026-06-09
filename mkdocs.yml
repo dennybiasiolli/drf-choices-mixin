@@ -1,7 +1,7 @@
-site_name: django-rest-choices
-site_url: https://dennybiasiolli.github.io/django-rest-choices/
-repo_url: https://github.com/dennybiasiolli/django-rest-choices
-repo_name: dennybiasiolli/django-rest-choices
+site_name: drf-choices-mixin
+site_url: https://dennybiasiolli.github.io/drf-choices-mixin/
+repo_url: https://github.com/dennybiasiolli/drf-choices-mixin
+repo_name: dennybiasiolli/drf-choices-mixin
 site_description: >-
   A Django REST Framework mixin that auto-generates API endpoints
   for model field choices.
