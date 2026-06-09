@@ -39,3 +39,12 @@ response key names — is configurable through class attributes. See the
 - Python >= 3.10
 - Django >= 4.2
 - Django REST Framework >= 3.14
+
+```{toctree}
+:maxdepth: 2
+:caption: Contents
+
+getting-started
+configuration
+api-reference
+```

@@ -9,5 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-# MkDocs build output
-site/
+# Sphinx build output
+docs/_build/

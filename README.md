@@ -296,7 +296,7 @@ uv run ruff format .
 
 # Build documentation locally
 uv sync --group docs
-uv run mkdocs serve
+make docs
 ```
 
 ## Credits

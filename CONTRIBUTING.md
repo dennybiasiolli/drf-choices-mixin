@@ -159,11 +159,11 @@ without having to list every included field explicitly.
 ### Documentation
 
 - Update the README if you add or change public configuration options.
-- Update the MkDocs pages under `docs/` for detailed documentation.
+- Update the Sphinx pages under `docs/` for detailed documentation.
 - Build the docs locally to verify they render correctly:
 
 ```bash
-uv run mkdocs serve
+make docs
 ```
 
 ## License

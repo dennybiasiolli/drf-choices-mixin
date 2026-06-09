@@ -58,9 +58,10 @@ class TaskViewSet(ChoicesMixin, ModelViewSet):
 | `GET /tasks/choices/` | `GET /tasks/choices/` |
 | `GET /tasks/choices/status/` | `GET /tasks/status/choices/` |
 
-!!! note
-    The all-choices endpoint is always just the endpoint name — only the
-    per-field endpoint changes order.
+```{note}
+The all-choices endpoint is always just the endpoint name — only the
+per-field endpoint changes order.
+```
 
 ### Combining with a custom endpoint name
 
@@ -113,9 +114,10 @@ class TaskViewSet(ChoicesMixin, ModelViewSet):
 {"detail": "Field 'priority' does not have choices."}
 ```
 
-!!! tip
-    Use this when your model has many choice fields but you only want to
-    expose a subset through the API.
+```{tip}
+Use this when your model has many choice fields but you only want to
+expose a subset through the API.
+```
 
 ---
 

@@ -15,13 +15,13 @@ format:
 	uv run ruff check --fix .
 
 docs:
-	uv run --group docs mkdocs build --strict
+	uv run --group docs sphinx-build -W -b html docs docs/_build/html
 
-docs-serve:
-	uv run --group docs mkdocs serve
+docs-serve: docs
+	python -m http.server -d docs/_build/html 8000
 
 clean:
-	rm -rf dist/ site/
+	rm -rf dist/ docs/_build/
 
 build: clean
 	uv build

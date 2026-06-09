@@ -47,8 +47,9 @@ dev = [
     "ruff>=0.11",
 ]
 docs = [
-    "mkdocs>=1.6",
-    "mkdocs-material>=9.6",
+    "sphinx>=8.0",
+    "furo>=2024.8",
+    "myst-parser>=4.0",
 ]
 
 [build-system]
