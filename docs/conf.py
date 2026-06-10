@@ -1,5 +1,7 @@
+from importlib.metadata import version as _version
+
 project = "drf-choices-mixin"
-version = "0.1.0"
+version = _version("drf-choices-mixin")
 author = "Denny Biasiolli"
 
 extensions = ["myst_parser"]
