@@ -1,3 +1,4 @@
+from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
@@ -108,6 +109,6 @@ class ChoicesMixin:
         if field_name not in fields:
             return Response(
                 {"detail": f"Field '{field_name}' does not have choices."},
-                status=404,
+                status=status.HTTP_404_NOT_FOUND,
             )
         return Response(self._format_choices(fields[field_name]))
