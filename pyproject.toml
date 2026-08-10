@@ -1,6 +1,6 @@
 [project]
 name = "drf-choices-mixin"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Django REST Framework mixin that auto-generates API endpoints for model field choices"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,6 +17,8 @@ classifiers = [
     "Framework :: Django :: 5.0",
     "Framework :: Django :: 5.1",
     "Framework :: Django :: 5.2",
+    "Framework :: Django :: 6.0",
+    "Framework :: Django :: 6.1",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",

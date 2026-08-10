@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.1.3] - 2026-08-10
+
+### Added
+
+- Official Django 6.0 and 6.1 support (classifiers and test lockfile).
+
 ## [0.1.2] - 2026-06-22
 
 ### Added
@@ -55,6 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - CI with GitHub Actions (lint + test matrix for Python 3.10–3.13).
 - Dependabot for dependency updates.
 
+[0.1.3]: https://github.com/dennybiasiolli/drf-choices-mixin/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/dennybiasiolli/drf-choices-mixin/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/dennybiasiolli/drf-choices-mixin/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dennybiasiolli/drf-choices-mixin/releases/tag/v0.1.0
